@@ -1,0 +1,4 @@
+url = ''
+res = ''
+title = ''
+directory = ''

@@ -2,6 +2,7 @@ import yt_input
 import get_video
 import hd_file_download
 import file_convert
+import file_merge
 
 # https://www.youtube.com/watch?v=zI383uEwA6Q
 
@@ -14,3 +15,4 @@ hd_file_download.dl_video()
 hd_file_download.dl_audio()
 file_convert.convert_video()
 file_convert.convert_audio()
+file_merge.merge()

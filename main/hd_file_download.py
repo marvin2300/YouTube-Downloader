@@ -1,9 +1,6 @@
 from pytube import YouTube
 import var
 
-#var.url = "https://www.youtube.com/watch?v=zI383uEwA6Q"
-#var.res = "1080p"
-
 def dl_video():
     print("Downloading video...")
     YouTube(var.url).streams.filter(res=var.res, progressive=False).first().download(filename="temp_video.webm",

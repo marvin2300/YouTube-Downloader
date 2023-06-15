@@ -11,8 +11,3 @@ def convert_audio():
     print("Converting Audio...")
     con_audio = moviepy.AudioFileClip("./temp_files/temp_audio.webm")
     con_audio.write_audiofile('./temp_files/temp_audio.mp3')
-
-
-# convert_video()
-# convert_audio()
-

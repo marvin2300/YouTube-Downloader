@@ -2,8 +2,6 @@ import re
 from pytube import YouTube
 import var
 
-# https://www.youtube.com/watch?v=zI383uEwA6Q
-
 
 def is_youtube_link(url):
     youtube_regex = \

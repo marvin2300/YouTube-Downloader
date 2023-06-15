@@ -1,6 +1,5 @@
 from pytube import YouTube
 import var
-# url = "https://www.youtube.com/watch?v=zI383uEwA6Q"
 
 
 def get_data():

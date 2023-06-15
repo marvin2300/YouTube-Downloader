@@ -1,6 +1,5 @@
 import ffmpeg
 import os
-# os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
 
 
 def merge():
@@ -17,6 +16,3 @@ def merge():
     os.remove("./temp_files/temp_audio.webm")
     os.remove("./temp_files/temp_video.webm")
     print("Done!")
-
-
-# merge()
